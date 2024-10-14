@@ -9,5 +9,8 @@ extern "C" {
         return 1;
     }
 }
+# elif PY_MINOR_VERSION >= 13
+#define Py_BUILD_CORE
+#include <internal/pycore_unicodeobject.h>
 #endif
 #endif
