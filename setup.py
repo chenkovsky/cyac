@@ -27,7 +27,7 @@ setup(
     author_email="nppoly@foxmail.com",
     packages=["cyac"],
     package_dir={'cyac': 'lib/cyac'},
-    package_data={'cyac': ['*.pxd', 'cyac/unicode_portability.c']},
+    package_data={'cyac': ['*.pxd', 'cyac/unicode_portability.c', 'cyac/unicodetype_db.h']},
     include_package_data=True,
     long_description_content_type="text/markdown",
     long_description=long_description,
