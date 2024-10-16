@@ -19,7 +19,7 @@ except IOError:
     long_description = ""
 
 setup(
-    version="1.10",
+    version="1.11",
     description="High performance Trie and Ahocorasick automata (AC automata) for python",
     name="cyac",
     url="https://github.com/nppoly/cyac",
@@ -27,7 +27,7 @@ setup(
     author_email="nppoly@foxmail.com",
     packages=["cyac"],
     package_dir={'cyac': 'lib/cyac'},
-    package_data={'cyac': ['*.pxd', 'cyac/unicode_portability.c', 'cyac/unicodetype_db.h']},
+    package_data={'cyac': ['*.pxd', 'unicode_portability.c', 'unicodetype_db.h']},
     include_package_data=True,
     long_description_content_type="text/markdown",
     long_description=long_description,
